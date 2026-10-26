@@ -39,21 +39,6 @@ npm start
 
 Botu sürekli çalıştırmak için `npm start` işlemini açık tut veya uygulamayı Node.js destekli bir sunucuya dağıt. Botu yeniden başlatmadan önce `.env` değerlerini kontrol et.
 
-## GitHub'a yükleme
-
-Önce GitHub'da boş bir repository oluştur. Sonra proje klasöründe `<kullanici>` ve `<repo>` yerlerini kendi GitHub bilgilerinle değiştir:
-
-```powershell
-git init -b main
-git add .
-git status --short
-git commit -m "Prepare public release"
-git remote add origin https://github.com/<kullanici>/<repo>.git
-git push -u origin main
-```
-
-İlk `git push` öncesinde `git status` çıktısında `.env`, `data/` veya gizli bir dosya olmadığını kontrol et. `.gitignore` bunları dışarıda tutar.
-
 ## Discord ayarları
 
 Developer Portal → **Bot → Privileged Gateway Intents** bölümünden gereken intent'leri aç:
