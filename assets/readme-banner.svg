@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Community Discord Bot</title>
+  <desc id="desc">A configurable Discord bot for moderation and community tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a35"/>
+      <stop offset="1" stop-color="#33266f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="65" r="185" fill="#818cf8" opacity=".10"/>
+  <circle cx="1065" cy="310" r="210" fill="#5eead4" opacity=".08"/>
+  <path d="M72 80h8v200h-8z" rx="4" fill="url(#accent)"/>
+  <text x="116" y="156" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700">COMMUNITY</text>
+  <text x="116" y="220" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700">DISCORD BOT</text>
+  <text x="120" y="272" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="22">Moderation · Server tools · Ticket support</text>
+  <g transform="translate(895 108)" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 19 27 31c-14 23-20 49-18 77 18 17 39 25 62 27l10-16c-11-3-20-8-28-14 21 10 45 10 66 0-8 6-17 11-28 14l10 16c23-2 44-10 62-27 2-28-4-54-18-77L118 19l-8 17a111 111 0 0 0-48 0z"/>
+    <circle cx="55" cy="77" r="5" fill="#5eead4" stroke="none"/>
+    <circle cx="105" cy="77" r="5" fill="#818cf8" stroke="none"/>
+    <path d="M62 102c10 7 26 7 36 0"/>
+  </g>
+</svg>
